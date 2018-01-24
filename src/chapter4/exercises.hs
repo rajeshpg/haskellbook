@@ -20,3 +20,6 @@ id x = x
 
 f3 :: (a, b) -> a
 f3 x = fst x
+
+addStuff :: Integer -> Integer -> Integer
+addStuff a b = a + b
