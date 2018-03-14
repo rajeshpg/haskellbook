@@ -45,6 +45,7 @@ equalityForall p p' = p == p'
 -- comparePapus :: Papu -> Papu ->Bool
 -- comparePapus p p' = p > p'
         
-
+f :: RealFrac a => a
+f = 1.0
 
 
