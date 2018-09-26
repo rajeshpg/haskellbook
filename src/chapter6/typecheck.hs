@@ -1,4 +1,4 @@
-module TypeCheck where
+--module TypeCheck where
 
 data Person = Person Bool
 -- printPerson :: Person -> IO()

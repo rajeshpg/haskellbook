@@ -7,6 +7,13 @@ functionC' x y =
     True -> x
     False -> y
 
+fnGreater x y =
+  case xIsGreater of
+    True -> x
+    False -> y
+    where
+      xIsGreater = x > y
+
 ifEvenAdd2 n = if even n then (n + 2 ) else n
 
 ifEvenAdd2' n =
