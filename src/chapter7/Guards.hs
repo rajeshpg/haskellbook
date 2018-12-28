@@ -27,7 +27,7 @@ avgGrade x
   | y >= 0.8 = 'B'
   | y >= 0.59 = 'D'
   | y < 0.59 = 'F'
-  where y = x /100
+  where y = x / 100
 
 pal :: String -> Bool
 pal xs
